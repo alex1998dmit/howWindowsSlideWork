@@ -1,0 +1,51 @@
+#receiver-side, #field, #sender-side {
+    /* height: 50px; */
+    border: 1px solid black;    
+}
+
+#receiver-side, #sender-side {
+    height: 50;
+}
+
+#field {
+    height: 400px;
+}
+
+.ack-block {
+    height: 50px;
+    border: 1px solid black;
+}
+
+.sender-block {
+    height: 50px;
+    border: 1px solid black;
+}
+
+.slide-window {
+    width: 30px;
+}
+
+.field-block {
+    height: 400px;
+    border: 1px solid black;
+    padding-top: 340px;
+    
+}
+
+.point {
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.point .send {
+    background-color: red;
+}
+
+.sender-block {
+    background-color: yellow;
+}
+
+.ack-block {
+    background-color: grey;
+}
